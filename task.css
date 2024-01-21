@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(232, 164, 157); /* Set the background color for the entire body */
+}
+
+h1 {
+    margin-bottom: 20px; /* Add margin below the heading */
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #c06161;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #6badbc;
+}
+
+.card {
+    background-color:#6badbc;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the entire content */
+    text-align: center; /* Center text within the content */
+    margin-top: auto; /* Push card to the bottom */
+}
+
+.button {
+    width: fit-content;
+    border-radius: 1rem;
+    background-color: green;
+    color: white;
+    font-size: 1.25rem;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.timer {
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.time {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.input {
+    display: flex;
+    gap: 10px; /* Adjust the gap between input fields */
+    flex-wrap: wrap; /* Allow wrapping if the space is not enough */
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#task,
+#description {
+    margin-bottom: 10px;
+    background-color: white; /* Set the background color for the input fields */
+}
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./task.css">
+</head>
+
+<body>
+    <h2>Task Log & Timer Application</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>TASK</th>
+                <th>DESCRIPTION</th>
+                <th>DURATION</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            <!-- Entries will be appended here dynamically using JS -->
+        </tbody>
+    </table>
+
+    <div class="card">
+        <div class="timer">
+            <!-- Timer control -->
+            <p class="time" id="hour">00</p>
+            <p class="time">:</p>
+            <p class="time" id="minutes">00</p>
+            <p class="time">:</p>
+            <p class="time" id="seconds">00</p>
+        </div>
+        <div class="input" id="input">
+            <input type="text" placeholder="TASK" id="task">
+            <input type="text" placeholder="DESCRIPTION" id="description">
+        </div>
+        <div class="button" id="button">Start</div>
+    </div>
+
+    <script type="module" src="./task.js"></script>
+</body>
+</html>
